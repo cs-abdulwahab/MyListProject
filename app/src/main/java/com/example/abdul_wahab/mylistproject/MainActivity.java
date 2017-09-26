@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list1);
 
         // DataSource
-        String data[] = {"s1", "s2", "s3", "s4"};
+        String data[] = {"s1", "s2", "s3", "s4", "s2", "s3","s2", "s3", "s2", "s3","s2", "s3","s2", "s3","s2", "s3","s2", "s3",};
 
         // Adapter
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data);
